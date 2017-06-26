@@ -1,0 +1,7 @@
+tests\SeleniumGridTest\Retry.class
+pages\EmailPage.class
+pages\LoginPage.class
+pages\ContactsPage.class
+pages\SendLetterPage.class
+pages\SettingsPage.class
+tests\SeleniumGridTest\ChromGridTest.class

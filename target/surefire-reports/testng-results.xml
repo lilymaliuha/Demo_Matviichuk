@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="131822" started-at="2017-06-25T17:30:34Z" finished-at="2017-06-25T17:32:46Z">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="62351" started-at="2017-06-25T17:30:34Z" finished-at="2017-06-25T17:31:37Z">
+      <class name="tests.SeleniumGridTest.ChromGridTest">
+        <test-method status="PASS" signature="launchbrowser(java.lang.String)[pri:0, instance:tests.SeleniumGridTest.ChromGridTest@2669b199]" name="launchbrowser" is-config="true" duration-ms="3638" started-at="2017-06-25T20:30:34Z" finished-at="2017-06-25T20:30:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="openLoginPage()[pri:0, instance:tests.SeleniumGridTest.ChromGridTest@2669b199]" name="openLoginPage" is-config="true" duration-ms="3115" started-at="2017-06-25T20:30:38Z" finished-at="2017-06-25T20:30:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method status="PASS" signature="changeFilter()[pri:0, instance:tests.SeleniumGridTest.ChromGridTest@2669b199]" name="changeFilter" duration-ms="23123" started-at="2017-06-25T20:30:41Z" finished-at="2017-06-25T20:31:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeFilter -->
+        <test-method status="PASS" signature="openLoginPage()[pri:0, instance:tests.SeleniumGridTest.ChromGridTest@2669b199]" name="openLoginPage" is-config="true" duration-ms="402" started-at="2017-06-25T20:31:04Z" finished-at="2017-06-25T20:31:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method status="PASS" signature="changePswrd()[pri:1, instance:tests.SeleniumGridTest.ChromGridTest@2669b199]" name="changePswrd" duration-ms="12027" started-at="2017-06-25T20:31:05Z" finished-at="2017-06-25T20:31:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changePswrd -->
+        <test-method status="PASS" signature="openLoginPage()[pri:0, instance:tests.SeleniumGridTest.ChromGridTest@2669b199]" name="openLoginPage" is-config="true" duration-ms="365" started-at="2017-06-25T20:31:17Z" finished-at="2017-06-25T20:31:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method status="PASS" signature="sendLetter()[pri:2, instance:tests.SeleniumGridTest.ChromGridTest@2669b199]" name="sendLetter" duration-ms="8826" started-at="2017-06-25T20:31:17Z" finished-at="2017-06-25T20:31:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendLetter -->
+        <test-method status="PASS" signature="openLoginPage()[pri:0, instance:tests.SeleniumGridTest.ChromGridTest@2669b199]" name="openLoginPage" is-config="true" duration-ms="414" started-at="2017-06-25T20:31:26Z" finished-at="2017-06-25T20:31:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method status="PASS" signature="makeContact()[pri:3, instance:tests.SeleniumGridTest.ChromGridTest@2669b199]" name="makeContact" duration-ms="9325" started-at="2017-06-25T20:31:26Z" finished-at="2017-06-25T20:31:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeContact -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.SeleniumGridTest.ChromGridTest@2669b199]" name="tearDown" is-config="true" duration-ms="1084" started-at="2017-06-25T20:31:36Z" finished-at="2017-06-25T20:31:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SeleniumGridTest.ChromGridTest -->
+    </test> <!-- ChromeTest -->
+    <test name="FirefoxTest" duration-ms="64027" started-at="2017-06-25T17:30:34Z" finished-at="2017-06-25T17:31:38Z">
+      <class name="tests.SeleniumGridTest.ChromGridTest">
+        <test-method status="PASS" signature="launchbrowser(java.lang.String)[pri:0, instance:tests.SeleniumGridTest.ChromGridTest@234bef66]" name="launchbrowser" is-config="true" duration-ms="11361" started-at="2017-06-25T20:30:34Z" finished-at="2017-06-25T20:30:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="openLoginPage()[pri:0, instance:tests.SeleniumGridTest.ChromGridTest@234bef66]" name="openLoginPage" is-config="true" duration-ms="2362" started-at="2017-06-25T20:30:46Z" finished-at="2017-06-25T20:30:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method status="PASS" signature="changeFilter()[pri:0, instance:tests.SeleniumGridTest.ChromGridTest@234bef66]" name="changeFilter" duration-ms="20034" started-at="2017-06-25T20:30:48Z" finished-at="2017-06-25T20:31:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeFilter -->
+        <test-method status="PASS" signature="openLoginPage()[pri:0, instance:tests.SeleniumGridTest.ChromGridTest@234bef66]" name="openLoginPage" is-config="true" duration-ms="707" started-at="2017-06-25T20:31:08Z" finished-at="2017-06-25T20:31:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method status="PASS" signature="changePswrd()[pri:1, instance:tests.SeleniumGridTest.ChromGridTest@234bef66]" name="changePswrd" duration-ms="12998" started-at="2017-06-25T20:31:09Z" finished-at="2017-06-25T20:31:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changePswrd -->
+        <test-method status="PASS" signature="openLoginPage()[pri:0, instance:tests.SeleniumGridTest.ChromGridTest@234bef66]" name="openLoginPage" is-config="true" duration-ms="569" started-at="2017-06-25T20:31:22Z" finished-at="2017-06-25T20:31:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method status="PASS" signature="sendLetter()[pri:2, instance:tests.SeleniumGridTest.ChromGridTest@234bef66]" name="sendLetter" duration-ms="6882" started-at="2017-06-25T20:31:22Z" finished-at="2017-06-25T20:31:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendLetter -->
+        <test-method status="PASS" signature="openLoginPage()[pri:0, instance:tests.SeleniumGridTest.ChromGridTest@234bef66]" name="openLoginPage" is-config="true" duration-ms="594" started-at="2017-06-25T20:31:29Z" finished-at="2017-06-25T20:31:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method status="PASS" signature="makeContact()[pri:3, instance:tests.SeleniumGridTest.ChromGridTest@234bef66]" name="makeContact" duration-ms="7622" started-at="2017-06-25T20:31:30Z" finished-at="2017-06-25T20:31:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeContact -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.SeleniumGridTest.ChromGridTest@234bef66]" name="tearDown" is-config="true" duration-ms="892" started-at="2017-06-25T20:31:37Z" finished-at="2017-06-25T20:31:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SeleniumGridTest.ChromGridTest -->
+    </test> <!-- FirefoxTest -->
+    <test name="IETest" duration-ms="131822" started-at="2017-06-25T17:30:34Z" finished-at="2017-06-25T17:32:46Z">
+      <class name="tests.SeleniumGridTest.ChromGridTest">
+        <test-method status="PASS" signature="launchbrowser(java.lang.String)[pri:0, instance:tests.SeleniumGridTest.ChromGridTest@7921b0a2]" name="launchbrowser" is-config="true" duration-ms="3793" started-at="2017-06-25T20:30:34Z" finished-at="2017-06-25T20:30:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[internet explorer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="openLoginPage()[pri:0, instance:tests.SeleniumGridTest.ChromGridTest@7921b0a2]" name="openLoginPage" is-config="true" duration-ms="1415" started-at="2017-06-25T20:30:38Z" finished-at="2017-06-25T20:30:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method status="PASS" signature="changeFilter()[pri:0, instance:tests.SeleniumGridTest.ChromGridTest@7921b0a2]" name="changeFilter" duration-ms="37852" started-at="2017-06-25T20:30:39Z" finished-at="2017-06-25T20:31:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeFilter -->
+        <test-method status="PASS" signature="openLoginPage()[pri:0, instance:tests.SeleniumGridTest.ChromGridTest@7921b0a2]" name="openLoginPage" is-config="true" duration-ms="453" started-at="2017-06-25T20:31:17Z" finished-at="2017-06-25T20:31:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method status="PASS" signature="changePswrd()[pri:1, instance:tests.SeleniumGridTest.ChromGridTest@7921b0a2]" name="changePswrd" duration-ms="29128" started-at="2017-06-25T20:31:18Z" finished-at="2017-06-25T20:31:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changePswrd -->
+        <test-method status="PASS" signature="openLoginPage()[pri:0, instance:tests.SeleniumGridTest.ChromGridTest@7921b0a2]" name="openLoginPage" is-config="true" duration-ms="440" started-at="2017-06-25T20:31:47Z" finished-at="2017-06-25T20:31:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method status="PASS" signature="sendLetter()[pri:2, instance:tests.SeleniumGridTest.ChromGridTest@7921b0a2]" name="sendLetter" duration-ms="24578" started-at="2017-06-25T20:31:47Z" finished-at="2017-06-25T20:32:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendLetter -->
+        <test-method status="PASS" signature="openLoginPage()[pri:0, instance:tests.SeleniumGridTest.ChromGridTest@7921b0a2]" name="openLoginPage" is-config="true" duration-ms="478" started-at="2017-06-25T20:32:12Z" finished-at="2017-06-25T20:32:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openLoginPage -->
+        <test-method status="PASS" signature="makeContact()[pri:3, instance:tests.SeleniumGridTest.ChromGridTest@7921b0a2]" name="makeContact" duration-ms="32782" started-at="2017-06-25T20:32:12Z" finished-at="2017-06-25T20:32:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeContact -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.SeleniumGridTest.ChromGridTest@7921b0a2]" name="tearDown" is-config="true" duration-ms="896" started-at="2017-06-25T20:32:45Z" finished-at="2017-06-25T20:32:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SeleniumGridTest.ChromGridTest -->
+    </test> <!-- IETest -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,12 @@
+java -jar C:\Users\Downloads\selenium-server-standalone-3.4.0.jar -role hub
+
+java -Dwebdriver.chrome.driver="C:\Program Files (x86)\Google\Chrome\chromedriver.exe" -jar selenium-server-standalone-3.4.0.jar -role webdriver -hub http://localhost:4444/grid/register -port 5556 -browser browserName=chrome
+
+java -Dwebdriver.gecko.driver="C:\\Program Files (x86)\\Mozilla Firefox\\geckodriver.exe" -jar selenium-server-standalone-3.4.0.jar -role webdriver -hub http://localhost:4444/grid/register -port 5557 -browser browserName=firefox
+
+java -Dwebdriver.ie.driver="C:\\Program Files (x86)\\Internet Explorer\\IEDriverServer.exe" -jar selenium-server-standalone-3.4.0.jar -role webdriver -hub http://localhost:4444/grid/register -port 5558 -browser browserName=ie
+
+
+
+
+ 
